@@ -1,10 +1,10 @@
 # Tugas 2 PBKK D
 update dari tugas 1 => penambahan view data dan model
-<br>
+<b>
 <img width="959" alt="image" src="https://github.com/user-attachments/assets/ef72dd6a-2b93-45a3-ad5f-c7f55a6cf037">
-<br>
+<b>
 <img width="959" alt="image" src="https://github.com/user-attachments/assets/13c24a57-6194-4df8-afe9-c0b5ad9e4bfc">
-<br>
+<b>
 
 
 # Tugas 1 PBKK D
