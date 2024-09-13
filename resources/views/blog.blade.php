@@ -1,6 +1,22 @@
+
 <x-layout>
     <x-slot:title>{{ $title }}</x-slot>
-    <h3 class="text-xl">This is my blog</h3>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae corrupti numquam accusantium modi magni velit. Ratione ex eveniet culpa magni ullam atque veritatis adipisci inventore nam, minus amet fugit aliquam!</p>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed tempora consectetur corporis tenetur fugit ipsam numquam rem eum laborum officia. Molestias sequi ullam officia praesentium ea veniam placeat est veritatis.</p>
+    @foreach ($posts as $post)
+        <article class="py-8 max-w-screen-md border-b border-gray-500">
+            <a href="/posts/{{ $post['slug'] }}" class="hover:underline">
+            <h2 class="mb-1 text-3xl tracking-tight font-bold text-gray-900">{{ $post['title'] }}</h2>
+            </a>
+            <div class="text-base text-gray-500">
+                <a href="#">{{ $post['author'] }}</a> | 13 September 2024
+            </div>
+
+            <p class="my-4 font-light">{{ Str::limit($post['body'], 100) }}</p>
+            
+            <a href="/posts/{{ $post['slug'] }}" class="font-medium text-blue-500 hover:underline">read more &raquo;</a>
+        </article>
+    @endforeach
+
+
+
+    </article>
 </x-layout>
