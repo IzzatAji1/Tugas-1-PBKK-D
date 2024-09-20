@@ -1,3 +1,15 @@
+# Tugas 3 PBKK D
+update dari tugas 2 => penambahan database & migration, Eloquent ORM & Post Model
+<br>
+<img width="959" alt="image" src="https://github.com/user-attachments/assets/f3f55ed4-0cbc-4142-bf72-57dc80ccbf82">
+<br>
+<img width="956" alt="image" src="https://github.com/user-attachments/assets/8b4617ae-a36f-4b80-9a05-2b3fcd9c736e">
+<br>
+<img width="959" alt="image" src="https://github.com/user-attachments/assets/0fd0c3f1-4248-4229-aac8-f5cf2a82dd40">
+<br>
+
+
+
 # Tugas 2 PBKK D
 update dari tugas 1 => penambahan view data dan model
 <b>
