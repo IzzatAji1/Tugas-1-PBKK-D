@@ -1,3 +1,7 @@
+# Update Tugas 4 & 5 PBKK D
+<img width="853" alt="image" src="https://github.com/user-attachments/assets/843894af-7884-4ad4-ab81-8d4eb2e00912" />
+
+
 # Tugas 3 PBKK D
 update dari tugas 2 => penambahan database & migration, Eloquent ORM & Post Model
 <br>
